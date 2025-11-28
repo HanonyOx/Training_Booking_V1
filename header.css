@@ -35,6 +35,66 @@ header {
 }
 
 .nav-bar li a:hover {
-    text-decoration: underline;
     color:  #F3C623;
+}
+.toogle_btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    display: none;
+
+}
+.mobile_menu {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+    width: 250px;
+    top: 90px;
+    right: 2rem;
+    border-radius: 20px;
+    background-color: #0A1A2F;
+    backdrop-filter: blur(15px);
+    transition: height 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+}
+.mobile_menu.open {
+    height: 280px;
+}
+.mobile_menu li {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    align-items: center;    
+}
+.mobile_menu li a {
+    font-size: 1.2rem;
+    display: block;
+    text-decoration: none;
+    padding: 10px 100px;
+    width: unset;
+    color: #FFFFFF;
+}
+ .mobile_menu li a:hover {
+    background: linear-gradient(135deg,#5e829a, #456e89);
+    color: #FFFFFF;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+
+    }
+/* MOBILE RESPONSIVENESS MEDIA QUERY */
+@media screen and (max-width: 768px) {
+    .desktop_menu {
+        display: none;
+    }
+    .toogle_btn {
+        display: block;
+    }
+    .mobile_menu {
+        display: block;
+        left: 2rem;
+        width: unset;
+    }
+   
+  
 }
