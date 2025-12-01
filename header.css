@@ -83,7 +83,7 @@ header {
 
     }
 /* MOBILE RESPONSIVENESS MEDIA QUERY */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .desktop_menu {
         display: none;
     }

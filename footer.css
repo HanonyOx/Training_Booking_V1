@@ -1,0 +1,26 @@
+.footer { 
+    background-color:#0A1A2F;
+    color: white;
+    text-align: center;
+    padding: 25px 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+   
+}
+.footer-content li {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.footer-content li a {
+    color: #F3C623;
+    font-size: 20px;
+    text-decoration: none;
+}
