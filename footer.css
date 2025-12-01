@@ -23,3 +23,11 @@
     color: #F3C623;
     font-size: 20px;
 }
+@media screen and (max-width: 600px) {
+    .footer-content p {
+        font-size: 14px;
+      
+
+    }
+    
+}
