@@ -22,5 +22,8 @@
 .footer-content li a {
     color: #F3C623;
     font-size: 20px;
-    text-decoration: none;
+}
+.footer-content li a:hover {
+    color: white;
+    transform: translateY(-4px) scale(1.03);
 }
